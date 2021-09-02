@@ -14,6 +14,16 @@
 	* If you need to get the latest state after the execution of setState(), 
 					to get data in the second callback function
 * Chapter 2. lazyLoad
+```js
+	const Login = lazy(()=>import('@/pages/Login'))
+	
+	<Suspense fallback={<h1>loading.....</h1>}>
+        	<Switch>
+            		<Route path="/xxx" component={Xxxx}/>
+            		<Redirect to="/login"/>
+        	</Switch>
+    	</Suspense>
+```
 * Chapter 3. hooks
 * Chapter 4. Fragment
 * Chapter 5. Context
