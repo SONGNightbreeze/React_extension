@@ -32,7 +32,11 @@
 	3. Ref Hook: React.useRef()
 * Chapter 4. Fragment
 	* There is no need to have a real DOM root tag
-	* <Fragment><Fragment>  or <></>
+	```
+	<Fragment><Fragment>  
+	or 
+	<></>
+	```
 * Chapter 5. Context
 	* Context is designed to share data that can be considered “global” for a tree of React components, such as the current authenticated user, theme, or preferred language
 	* component communication method, often used between "ancestor component" and "descendant component"
