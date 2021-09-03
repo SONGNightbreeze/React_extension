@@ -25,8 +25,17 @@
     	</Suspense>
 ```
 * Chapter 3. hooks
+	* Hook is a new feature/ syntax added in React version 16.8.0
+	* It allows you to use state and other React features in function components
+	1. State Hook: React.useState()
+	2. Effect Hook: React.useEffect()
+	3. Ref Hook: React.useRef()
 * Chapter 4. Fragment
+	* There is no need to have a real DOM root tag
+	* <Fragment><Fragment>  or <></>
 * Chapter 5. Context
+	* Context is designed to share data that can be considered “global” for a tree of React components, such as the current authenticated user, theme, or preferred language
+	* component communication method, often used between "ancestor component" and "descendant component"
 * Chapter 6. optimize
 * Chapter 7. renderProps
 * Chapter 8. ErrorBoundary
